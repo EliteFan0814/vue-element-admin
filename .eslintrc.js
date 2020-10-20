@@ -26,8 +26,13 @@ module.exports = {
     ],
     "vue/singleline-html-element-content-newline": "off",
     "vue/multiline-html-element-content-newline": "off",
+    "vue/html-closing-bracket-newline": ["warn", {
+      "singleline": "never",
+      "multiline": "never"
+    }],
     "vue/name-property-casing": ["error", "PascalCase"],
     "vue/no-v-html": "off",
+    "vue/html-indent":"off",
     "accessor-pairs": 2,
     "arrow-spacing": [
       2,
